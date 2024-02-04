@@ -1,0 +1,36 @@
+     .parent{background-image: url(../my\ pictures/Ahmed.jpg  ) ; 
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    width: 70%;
+height: 100vh; 
+margin: auto; 
+position: relative; 
+display: flex;
+justify-content: flex-start;}
+
+
+
+    .test{background-color: yellow;  
+    width: 200px;
+height: 200px; 
+/* float: left;  */
+position: absolute; 
+/* z-index: 1;  */
+/* bottom: 50px; left: 50px;}  */}
+
+.test1{background-color: rgb(255, 0, 242);  
+    width: 100px;
+height: 400px; 
+/* float: left;  */
+/* position: absolute; right: 30px; top: 40px;}  */}
+
+.test3{color: rgb(18, 63, 63); 
+background-color: rgb(202, 17, 226); 
+position: fixed; 
+/* left: 500px;  */
+/* top: 0;  */
+z-index: 10; 
+height: 50px; width: 50px;}
+ 
+.osy{background-color: blueviolet; color: yellow;}

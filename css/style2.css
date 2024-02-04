@@ -1,0 +1,86 @@
+body{color: white;}
+body{background-color: rgb(24, 23, 23); 
+display: flex;} 
+  
+
+.div1{width: 400px; height: 200px; background-color: rgb(113, 124, 141);
+    display: inline-block;
+    border-radius: 20px; border: 1px solid yellow; }
+.div1,.div2,.div3,.div4{background: -webkit-linear-gradient(left,rgb(1, 81, 83),rgb(79, 123, 131));
+     border: 1px solid rgb(3, 236, 147); }
+.div2{width: 400px; height: 200px; background-color: rgb(113, 124, 141);
+    display: inline-block;
+    margin-left: 50px; 
+    border-radius: 20px;  }
+
+button{background-color: rgb(1, 81, 83); border: none; color: white; width: 100px; height: 35px;  border-radius: 20px}
+.div3 {background-color: rgb(113, 124, 141); display: inline-block;  width: 400px; height: 200px; 
+border-radius: 20px;     }
+.div4{background-color: rgb(113, 124, 141); display: inline-block;  width: 400px; height: 200px;
+    margin-left: 50px; 
+ border-radius: 20px; 
+}
+h3{display: inline-block; 
+margin-left: 100px;} 
+.draw{margin-left: 300px;}
+.nizar{display: inline-block; color: white; text-decoration: none;} 
+.bt1{ color: yellow; 
+border: none;}
+.web dd{display: inline-block;} 
+.main{ display: inline-block;
+    width: max-content;
+    margin: auto;
+    background-color:rgb(23, 81, 94);
+    margin-left: 50px; padding-left: 20px; } 
+
+
+
+
+.about {width: 700px;}
+.sidebar{ display: inline-block; 
+    margin-left: 40px;
+    background-color:rgb(23, 81, 94);  width: 250px; padding-right: 20px;}
+    .m{margin-top: 500px;}
+
+    .i2{ display: inline-block;  color: rgb(51, 238, 245); background-color:  rgb(11, 64, 65); width: 20px; height: 20px; padding: auto ;
+    font-size: 20px; padding: 15px; border-radius:10px; border: 1px solid rgb(3, 236, 147);} 
+    .i1{color: rgb(151, 250, 253) ; ; font-size: 25px; margin-left: 5px; } 
+    .muhammad{ background: -webkit-linear-gradient(left,rgb(79, 123, 131),rgb(1, 81, 83)); border-radius: 30px;} h4{display: block;} 
+    .dpm{background-color: rgb(11, 64, 65)  ; width: max-content ;  border-radius: 7px; height: 30px;  padding: 0px 0px 10px 0px; } 
+    h4{display:inline-block; } p{display:inline-block;}
+    .webdesign{display: inline-block;} .wdd{display: inline-block; }
+.space{color: rgb(157, 255, 0);} .spacex{color: rgb(157, 255, 0); margin-left: 100px;} 
+
+ul{list-style: none; }
+.NA{background: -webkit-linear-gradient(left,rgb(79, 123, 131),rgb(1, 81, 83)); border-radius: 15px; } 
+.button1{ margin-left: 500px; width: 1000px; height: 50px; background-color: rgb(1, 81, 83); border-radius: 20px; border: 1px solid rgb(128, 136, 150);}
+.mwd{ padding-left: 30px; }  
+/* .div1:hover{background-color: blue; color: black;} */
+.i1:hover{text-decoration: underline;}
+
+@media screen and (max-width:480px)  
+{body{background-color: rgb(243, 149, 9);} body{color: black;  
+display: block;} 
+
+.sidebar{width: 90%; 
+margin: auto;
+margin-bottom: 20px;}
+
+
+.main{width: 90%;} .div1,.div2{ background-color: blueviolet;} 
+.muhammad{width: 50px; height: 50px; display: inline-block;}
+}
+        
+    /* .parent{background-color: blueviolet; 
+    width: 100%;
+height: 200px;}
+
+
+
+    .test{background-color: yellow;  
+    width: 200px;
+height: 200px; 
+float: left;} 
+
+.parent div{ background-color: aqua;} */  
+.sidebar{float: left;} .main{float: left;}
